@@ -5,6 +5,10 @@ body {
     color: #413d4b;
 }
 
+button:focus,input:focus{
+    outline: none;
+}
+
 .hed {
     font-family: 'Playfair Display', serif;
     font-size: 22px;
