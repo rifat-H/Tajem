@@ -153,7 +153,26 @@
  /* story end */
 
  /* watch start */
- .watch {}
+ .watch {
+   padding: 190px 0;
+   background: url(../images/banner2.png);
+   background-repeat: no-repeat;
+
+ }
+
+ .watch_wrapper {
+   text-align: center;
+ }
+
+ .watch_wrapper img {}
+
+ .watch_wrapper p {
+   font-size: 16px;
+   letter-spacing: 1px;
+   color: #ffffff;
+   font-weight: 900;
+   margin-top: 30px;
+ }
 
  /* watch end */
 
