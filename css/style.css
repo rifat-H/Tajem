@@ -304,7 +304,20 @@
  /* team end */
 
  /* works start */
- .works {}
+ .works {
+	 padding: 50px 0;
+ }
+ .works-header{ 
+	 text-align: center;
+ }
+ .works-header h1{
+	 margin-bottom: 40px;
+ }
+ .work{
+	 width: 100%;
+	 height: 200px;
+ }
+
 
  /* works end */
 
