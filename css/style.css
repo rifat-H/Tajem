@@ -63,7 +63,6 @@ nav ul li a:hover {
     margin-top: 20px;
 }
 
-.carousel-indicators ol {}
 
 .carousel-indicators li {
     width: 10px !important;
@@ -90,7 +89,6 @@ nav ul li a:hover {
 
 .inner-carousel h1 {
     font-size: 32px;
-    /* letter-spacing: 0; */
     color: #ffffff;
     font-family: "Playfair Display";
     font-weight: 900;
