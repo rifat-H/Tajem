@@ -154,10 +154,10 @@
 
  /* watch start */
  .watch {
-   padding: 190px 0;
+   padding-top: 190px;
+   padding-bottom: 182px;
    background: url(../images/banner2.png);
    background-repeat: no-repeat;
-
  }
 
  .watch_wrapper {

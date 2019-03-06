@@ -1,5 +1,14 @@
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+
+  /* watch start */
+  .watch {
+    padding-top: 100px;
+    padding-bottom: 92px;
+  }
+
+  /* watch end */
+
   /* header start */
 
   nav ul {
@@ -44,7 +53,7 @@
     text-align: center;
   }
 
-  .story_wrapper1{
+  .story_wrapper1 {
     margin-bottom: 20px;
   }
 
@@ -53,6 +62,17 @@
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+  /* watch start */
+  .watch {
+    padding-top: 100px;
+    padding-bottom: 92px;
+  }
+
+
+
+  /* watch end */
+
   /* header start */
 
   nav ul {
@@ -89,6 +109,20 @@
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+  /* watch start */
+  .watch {
+    padding-top: 130px;
+    padding-bottom: 122px;
+  }
+
+  .watch_wrapper p {
+    font-size: 16px;
+    letter-spacing: 0;
+  }
+
+  /* watch end */
+
   /* header start */
 
   nav ul {
@@ -132,6 +166,13 @@
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+  /* watch start */
+  .watch {
+    padding: 130px 0;
+  }
+
+  /* watch end */
 
   /* banner start */
   .banner {
