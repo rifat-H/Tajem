@@ -118,7 +118,8 @@
 
  .inner-carousel button,
  .story_wrapper2 button,
- .team-footer button {
+ .team-footer button,
+ .work-footer button {
  	margin-top: 50px;
  	background: transparent;
  	border: none;
@@ -293,8 +294,8 @@
  .team-footer p {
  	letter-spacing: 1px;
  	color: #f3f3f3;
-	 font-weight: 300;
-	 margin-top: 90px;
+ 	font-weight: 300;
+ 	margin-top: 90px;
  }
 
  .team-footer button {
@@ -305,18 +306,25 @@
 
  /* works start */
  .works {
-	 padding: 50px 0;
+ 	padding: 50px 0;
  }
- .works-header{ 
-	 text-align: center;
+
+ .works-header {
+ 	text-align: center;
  }
- .works-header h1{
-	 margin-bottom: 40px;
+
+ .works-header h1 {
+ 	margin-bottom: 40px;
  }
- .work{
-	 width: 100%;
-	 height: 200px;
+
+ .work {
+ 	width: 100%;
+ 	height: 200px;
  }
+
+ .work-footer {}
+
+ .work-footer button {}
 
 
  /* works end */
