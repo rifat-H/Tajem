@@ -1,44 +1,67 @@
 /* global start */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #413d4b;
+}
+
+.hed{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+}
+
+.blueish{
+    color: #00e0d0;
+}
 
 /* global end */
 
 
 /* header start */
-header{}
+header {}
+
 /* nav start */
 
 /* nav end */
 
 /* banner start */
-.banner{}
+.banner {}
+
 /* banner end */
 
 /* header end */
 
 /* watch start */
-.watch{}
+.watch {}
+
 /* watch end */
 
 /* expertise start */
-.expertise{}
+.expertise {}
+
 /* expertise end */
 
 /* team start */
-.team{}
+.team {}
+
 /* team end */
 
 /* works start */
-.works{}
+.works {}
+
 /* works end */
 
 /* quotes start */
-.quotes{}
+.quotes {}
+
 /* quotes end */
 
 /* news start */
-.news{}
+.news {}
+
 /* news end */
 
 /* footer start */
-footer{}
+footer {}
+
 /* footer end */
