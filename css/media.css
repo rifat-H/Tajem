@@ -1,136 +1,157 @@
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    /* header start */
+  /* header start */
 
-    nav ul {
-        text-align: center;
-        margin-top: 10px;
-    }
+  nav ul {
+    text-align: center;
+    margin-top: 10px;
+  }
 
-    nav ul li {
-        margin-bottom: 10px;
-    }
+  nav ul li {
+    margin-bottom: 10px;
+  }
 
-    /* header end */
-    /* banner start */
-    .banner {
-        padding-top: 50px;
-    }
-    .inner-carousel{
-        padding-bottom: 70px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
+  /* header end */
+  /* banner start */
+  .banner {
+    padding-top: 50px;
+  }
 
-    .inner-carousel p {
-        margin-top: 20px;
-        font-size: 15px;
-    }
+  .inner-carousel {
+    padding-bottom: 70px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
-    .inner-carousel button {
-        margin-top: 40px;
-    }
-    .inner-carousel h1 {
-        font-size: 26px;
-    }
-    /* banner end */
+  .inner-carousel p {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  .inner-carousel button {
+    margin-top: 40px;
+  }
+
+  .inner-carousel h1 {
+    font-size: 26px;
+  }
+
+  /* banner end */
+
+  /*story start*/
+  .story {
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  .story_wrapper1{
+    margin-bottom: 20px;
+  }
+
+  /*story end*/
 }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    /* header start */
+  /* header start */
 
-    nav ul {
-        text-align: center;
-    }
+  nav ul {
+    text-align: center;
+  }
 
-    nav ul li {
-        margin-bottom: 10px;
-    }
+  nav ul li {
+    margin-bottom: 10px;
+  }
 
-    /* header end */
-    /* banner start */
-    .banner {
-        padding-top: 50px;
-    }
+  /* header end */
+  /* banner start */
+  .banner {
+    padding-top: 50px;
+  }
 
-    .inner-carousel p {
-        margin-top: 20px;
-        font-size: 15px;
-    }
+  .inner-carousel p {
+    margin-top: 20px;
+    font-size: 15px;
+  }
 
-    .inner-carousel button {
-        margin-top: 40px;
-        padding: 6px 12px;
-        font-size: 15px;
-    }
-    .inner-carousel h1 {
-        font-size: 27px;
-    }
-    /* banner end */
+  .inner-carousel button {
+    margin-top: 40px;
+    padding: 6px 12px;
+    font-size: 15px;
+  }
+
+  .inner-carousel h1 {
+    font-size: 27px;
+  }
+
+  /* banner end */
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    /* header start */
+  /* header start */
 
-    nav ul {
-        text-align: center;
-    }
+  nav ul {
+    text-align: center;
+  }
 
-    nav ul li {
-        margin-bottom: 10px;
-    }
+  nav ul li {
+    margin-bottom: 10px;
+  }
 
-    /* header end */
-    /* banner start */
-    .banner {
-        padding-top: 50px;
-        padding-bottom: 20px;
-    }
-    
-    .inner-carousel{
-        margin-bottom: 0;
-    }
+  /* header end */
+  /* banner start */
+  .banner {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
 
-    .inner-carousel hr {
-        width: 40px;
-    }
+  .inner-carousel {
+    margin-bottom: 0;
+  }
 
-    .inner-carousel p {
-        margin-top: 20px;
-        font-size: 15px;
-    }
+  .inner-carousel hr {
+    width: 40px;
+  }
 
-    .inner-carousel button {
-        margin-top: 40px;
-    }
-    .inner-carousel h1 {
-        font-size: 29px;
-    }
-    /* banner end */
+  .inner-carousel p {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  .inner-carousel button {
+    margin-top: 40px;
+  }
+
+  .inner-carousel h1 {
+    font-size: 29px;
+  }
+
+  /* banner end */
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
-    /* banner start */
-    .banner {
-        padding-top: 50px;
-    }
+  /* banner start */
+  .banner {
+    padding-top: 50px;
+  }
 
-    .inner-carousel p {
-        margin-top: 20px;
-        font-size: 15px;
-    }
+  .inner-carousel p {
+    margin-top: 20px;
+    font-size: 15px;
+  }
 
-    .inner-carousel button {
-        margin-top: 40px;
-    }
-    .inner-carousel h1 {
-        font-size: 29px;
-    }
-    /* banner end */
+  .inner-carousel button {
+    margin-top: 40px;
+  }
+
+  .inner-carousel h1 {
+    font-size: 29px;
+  }
+
+  /* banner end */
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
