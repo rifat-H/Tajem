@@ -1,24 +1,24 @@
 /* global start */
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    color: #413d4b;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #413d4b;
 }
 
 button:focus,
 input:focus {
-    outline: none;
+  outline: none;
 }
 
 .hed {
-    font-family: 'Playfair Display', serif;
-    font-size: 22px;
-    font-weight: 700;
-    letter-spacing: 1px;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .blueish {
-    color: #00e0d0;
+  color: #00e0d0;
 }
 
 /* global end */
@@ -26,99 +26,100 @@ input:focus {
 
 /* header start */
 header {
-    background: url(../images/banner.png);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* height: 100vh; */
+  background: url(../images/banner.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
 }
 
 /* nav start */
 nav {
-    padding: 15px 0;
+  padding: 15px 0;
 }
 
 nav ul li {
-    margin: 0 7px;
+  margin: 0 7px;
 }
 
 nav ul li:last-child {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 nav ul li a {
-    text-transform: uppercase;
-    color: #fff !important;
-    font-weight: 900;
+  text-transform: uppercase;
+  color: #fff !important;
+  font-weight: 900;
 }
 
 nav ul li a:hover {
-    color: #00e0d0 !important;
+  color: #00e0d0 !important;
 }
 
 /* nav end */
 
 /* banner start */
 .banner {
-    padding-top: 100px;
-    padding-bottom: 40px;
-    margin-top: 20px;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  margin-top: 20px;
 }
 
 
 .carousel-indicators li {
-    width: 10px !important;
-    height: 10px !important;
-    border-radius: 50% !important;
-    -webkit-border-radius: 50% !important;
-    -moz-border-radius: 50% !important;
-    -ms-border-radius: 50% !important;
-    -o-border-radius: 50% !important;
-    background: transparent;
-    border: 1px solid white;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  -ms-border-radius: 50% !important;
+  -o-border-radius: 50% !important;
+  background: transparent;
+  border: 1px solid white;
 }
 
 .carousel-indicators .active {
-    background-color: #00e0d0 !important;
-    border: none;
+  background-color: #00e0d0 !important;
+  border: none;
 }
 
 
 .inner-carousel {
-    text-align: center;
-    padding-bottom: 100px;
-    margin-bottom: 40px;
+  text-align: center;
+  padding-bottom: 100px;
+  margin-bottom: 40px;
 }
 
 .inner-carousel h1 {
-    font-size: 32px;
-    color: #ffffff;
-    font-family: "Playfair Display";
-    font-weight: 900;
-    margin-bottom: 20px;
+  font-size: 32px;
+  color: #ffffff;
+  font-family: "Playfair Display";
+  font-weight: 900;
+  margin-bottom: 20px;
 }
 
 .inner-carousel hr {
-    width: 50px;
-    height: 1px;
-    background-color: #00e0d0;
+  width: 50px;
+  height: 1px;
+  background-color: #00e0d0;
 }
 
 .inner-carousel p {
-    margin-top: 30px;
-    letter-spacing: 1px;
-    line-height: 24px;
-    color: #ffffff;
-    font-weight: 300;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 300;
 }
 
-.inner-carousel button, .story_wrapper2 button {
-    margin-top: 50px;
-    background: transparent;
-    border: none;
-    border: 1px solid #00e0d0;
-    padding: 8px 20px;
-    text-transform: uppercase;
+.inner-carousel button,
+.story_wrapper2 button {
+  margin-top: 50px;
+  background: transparent;
+  border: none;
+  border: 1px solid #00e0d0;
+  padding: 8px 20px;
+  text-transform: uppercase;
 }
 
 
@@ -128,13 +129,16 @@ nav ul li a:hover {
 
 /* story start */
 .story {
-    padding: 100px 0;
+  padding: 100px 0;
 }
 
-.story_wrapper2{}
-.story_wrapper2 h1{}
-.story_wrapper2 p{}
-.story_wrapper2 button{}
+.story_wrapper2 {}
+
+.story_wrapper2 h1 {}
+
+.story_wrapper2 p {}
+
+.story_wrapper2 button {}
 
 /* story end */
 
