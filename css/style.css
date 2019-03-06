@@ -1,4 +1,4 @@
-/* global start */
+ /* global start  */
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -15,6 +15,7 @@ input:focus {
   font-size: 22px;
   font-weight: 700;
   letter-spacing: 1px;
+  color: #413d4b;
 }
 
 .blueish {
@@ -132,13 +133,21 @@ nav ul li a:hover {
   padding: 100px 0;
 }
 
-.story_wrapper2 {}
+/*.story_wrapper2 {}*/
 
-.story_wrapper2 h1 {}
+.story_wrapper2 h1 {
+  margin-bottom: 20px;
+}
 
-.story_wrapper2 p {}
+.story_wrapper2 p {
+  letter-spacing: 0px;
+  line-height: 22px;
+  font-weight: 300;
+}
 
-.story_wrapper2 button {}
+.story_wrapper2 button {
+  margin-top: 30px;
+}
 
 /* story end */
 
@@ -175,4 +184,4 @@ nav ul li a:hover {
 /* footer start */
 footer {}
 
-/* footer end */
+/* footer end 
