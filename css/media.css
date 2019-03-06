@@ -1,6 +1,23 @@
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
+  /* global start */
+
+  .br-n {
+    border-right: none !important;
+  }
+
+  .bb-n {
+    border-bottom: none !important;
+  }
+
+  .bb {
+    border-bottom: 1px solid #dee2e6 !important;
+  }
+
+  /* global end */
+
+
   /* watch start */
   .watch {
     padding-top: 100px;
@@ -63,6 +80,22 @@
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
 
+  /* global start */
+
+  .br-n {
+    border-right: none !important;
+  }
+
+  .bb-n {
+    border-bottom: none !important;
+  }
+
+  .bb {
+    border-bottom: 1px solid #dee2e6 !important;
+  }
+
+  /* global end */
+
   /* watch start */
   .watch {
     padding-top: 100px;
@@ -109,6 +142,14 @@
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+  /* expertise start */
+  .expertise_wrapper2 {
+    padding: 5px 20px;
+  }
+
+  /* expertise end */
+
 
   /* watch start */
   .watch {
