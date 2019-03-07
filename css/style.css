@@ -150,7 +150,7 @@
  	letter-spacing: 0;
  	line-height: 22px;
  	font-weight: 300;
- 	text-transform: justify;
+ 	text-align: justify;
  }
 
  .story_wrapper2 button {
@@ -379,12 +379,15 @@
 
  .client {}
 
- .left, .right {
-	 margin-top: 15px;
-	 text-align: center;
+ .left,
+ .right {
+ 	margin-top: 15px;
+ 	text-align: center;
  }
- .left img, .right img{
-	 margin: 26px 0;
+
+ .left img,
+ .right img {
+ 	margin: 26px 0;
  }
 
  .right {}
@@ -392,6 +395,98 @@
  /* news end */
 
  /* footer start */
- footer {}
+ footer {
+ 	padding: 70px 0;
+ 	background: url(../images/banner5.png);
+ 	background-attachment: fixed;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ }
+
+ footer .discription {}
+
+ footer .discription img {
+ 	margin-bottom: 25px;
+ }
+
+ footer .discription p,
+ .studio-body-content p,
+ .touch p {
+ 	/* letter-spacing: 0; */
+ 	line-height: 26px;
+ 	color: #ffffff;
+ 	font-weight: 300;
+ 	/* text-align: justify; */
+ }
+
+ footer .discription ul {
+	margin-top: 80px;
+ }
+
+ footer .discription ul li {
+ 	margin: 0 20px;
+ }
+
+ footer .discription ul li:first-child {
+ 	margin-left: 0;
+ }
+
+ footer .discription ul li a {
+ 	text-transform: uppercase;
+ 	line-height: 26px;
+ 	color: #ffffff;
+ }
+
+ .studio-head {}
+
+ .studio-head h1,
+ .touch h1 {
+ 	margin-top: 15px;
+ 	font-size: 15px;
+ 	letter-spacing: 1px;
+ 	line-height: 26px;
+ 	color: #ffffff;
+ 	font-weight: 900;
+ }
+
+ .studio-body-content {}
+
+ .studio-body-content p {}
+
+ .touch {}
+
+ .touch h1 {
+	 margin-bottom: 38px;
+ }
+
+ .touch ul {
+ 	margin-top: 25px;
+ }
+
+ .touch ul li {}
+
+ .touch ul li {}
+
+ .touch p {
+ 	margin-top: 70px;
+ 	text-align: right;
+ }
+
+ .touch input[type=email] {
+
+ 	width: 100%;
+ 	border: none;
+ 	background: transparent;
+ 	padding: 11px 14px;
+ }
+
+ .touch input[type=submit] {
+ 	background: url(../images/subscribeButton.png) no-repeat;
+ 	background-position: center;
+ 	cursor: pointer;
+ 	border: none;
+ 	background-color: rgba(221, 221, 221, 0.596);
+ 	padding: 11px 35px;
+ }
 
  /* footer end
