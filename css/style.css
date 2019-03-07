@@ -160,7 +160,7 @@
  /* story end */
 
  /* watch start */
-  /* data-vide-bg="video/1.mp4" data-vide-options="loop: false, muted: false, position: 0% 0%" */
+ /* data-vide-bg="video/1.mp4" data-vide-options="loop: false, muted: false, position: 0% 0%" */
 
 
  .watch {
@@ -338,9 +338,48 @@
  .quotes {
  	padding: 80px 0;
  	background: url(../images/banner4.png);
+ 	color: #fff;
  	background-attachment: fixed;
  	background-repeat: no-repeat;
  	background-size: cover;
+ }
+
+ .main {
+ 	text-align: center;
+ }
+
+ .main img {
+ 	margin-bottom: 40px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
+
+ .main p {
+ 	font-family: 'Playfair Display', serif;
+ 	line-height: 26px;
+ 	/* text-align: justify; */
+ }
+
+ .main h5 {
+ 	font-weight: 900;
+ 	letter-spacing: 1px;
+ 	line-height: 22px;
+ 	font-size: 14px;
+ 	margin-top: 40px;
+ }
+
+ .persons {
+ 	color: #fff;
+ 	margin-top: 60px;
+ }
+
+ .slider-nav div {
+ 	display: inline-block;
+ }
+
+ .main h6 {
+ 	font-weight: 300;
+ 	font-size: 13px;
  }
 
  /* quotes end */
@@ -423,7 +462,7 @@
  }
 
  footer .discription ul {
-	margin-top: 80px;
+ 	margin-top: 80px;
  }
 
  footer .discription ul li {
@@ -459,7 +498,7 @@
  .touch {}
 
  .touch h1 {
-	 margin-bottom: 38px;
+ 	margin-bottom: 38px;
  }
 
  .touch ul {

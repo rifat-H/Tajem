@@ -1,5 +1,7 @@
 $(function () {
 
+    // vide start
+
     $('.watch').vide('../video/1.mp4', {
         volume: 1,
         muted: false,
@@ -16,6 +18,19 @@ $(function () {
         $('.watch_wrapper').hide();
     });
 
-    console.log(video.play);
+    // vide end
+
+    // slick start
+
+    $('.car').slick({
+        dots: true,
+        infinite: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        // arrows:true
+    });
+
+    // slick end
+
 
 });
