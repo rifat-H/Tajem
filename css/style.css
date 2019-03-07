@@ -128,6 +128,17 @@
  	padding: 8px 20px;
  	text-transform: uppercase;
  	font-family: 'Hammersmith One', sans-serif;
+ 	transition: all linear .3s;
+ 	-webkit-transition: all linear .3s;
+ 	-moz-transition: all linear .3s;
+ 	-ms-transition: all linear .3s;
+ 	-o-transition: all linear .3s;
+ }
+
+ .inner-carousel button:hover {
+ 	/* border: 1px solid #fff; */
+ 	background-color: #00e0d0;
+ 	color: #fff;
  }
 
 
@@ -155,6 +166,18 @@
 
  .story_wrapper2 button {
  	margin-top: 30px;
+ 	/* transition: all linear .3s ;
+	 -webkit-transition: all linear .3s ;
+	 -moz-transition: all linear .3s ;
+	 -ms-transition: all linear .3s ;
+	 -o-transition: all linear .3s ; */
+
+ }
+
+ .story_wrapper2 button:hover {
+ 	background-color: #00e0d0;
+ 	color: #fff;
+
  }
 
  /* story end */
@@ -307,6 +330,11 @@
  	margin-top: 10px;
  }
 
+ .team-footer button:hover {
+ 	background-color: #00e0d0;
+ 	color: #fff;
+ }
+
  /* team end */
 
  /* works start */
@@ -329,7 +357,10 @@
 
  /* .work-footer {} */
 
- /* .work-footer button {} */
+ .work-footer button:hover {
+ 	background-color: #00e0d0;
+ 	color: #fff;
+ }
 
 
  /* works end */
@@ -337,8 +368,8 @@
  /* quotes start */
 
  .car {
-	width: 98%;
-	display: flex;
+ 	width: 98%;
+ 	display: flex;
  }
 
  .quotes {
@@ -421,6 +452,11 @@
  	padding: 7px 30px;
  }
 
+ .good button:hover {
+ 	background-color: #00e0d0;
+ 	color: #fff;
+ }
+
  /* .client {} */
 
  .left,
@@ -478,7 +514,13 @@
  footer .discription ul li a {
  	text-transform: uppercase;
  	line-height: 26px;
- 	color: #ffffff;
+	 color: #ffffff;
+	 text-decoration: none;
+ }
+
+ footer .discription ul li a:hover {
+	/* background-color: #00e0d0; */
+    color: #00e0d0;
  }
 
  /* .studio-head {} */
@@ -525,12 +567,20 @@
  }
 
  .touch input[type=submit] {
- 	background: url(../images/subscribeButton.png) no-repeat;
- 	background-position: center;
- 	cursor: pointer;
- 	border: none;
- 	background-color: rgba(221, 221, 221, 0.596);
- 	padding: 11px 35px;
+	 background: url(../images/subscribeButton.png) no-repeat;
+	 background-position: center;
+	 cursor: pointer;
+	 border: none;
+	 background-color: rgba(221, 221, 221, 0.596);
+	 padding: 11px 35px;
+	 transition: all linear .3s ;
+	 -webkit-transition: all linear .3s ;
+	 -moz-transition: all linear .3s ;
+	 -ms-transition: all linear .3s ;
+	 -o-transition: all linear .3s ;
+}
+ .touch input[type=submit]:hover {
+	background-color: #fff;
  }
 
  /* footer end
