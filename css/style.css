@@ -160,11 +160,14 @@
  /* story end */
 
  /* watch start */
+  /* data-vide-bg="video/1.mp4" data-vide-options="loop: false, muted: false, position: 0% 0%" */
+
+
  .watch {
  	padding-top: 190px;
  	padding-bottom: 182px;
- 	background: url(../images/banner2.png);
- 	background-repeat: no-repeat;
+ 	/* background: url(../images/banner2.png);
+ 	background-repeat: no-repeat; */
  }
 
  .watch_wrapper {
