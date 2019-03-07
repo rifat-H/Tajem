@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/rifat-H/Tajem#readme",
   "dependencies": {
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "vide": "^0.5.1"
   }
 }
