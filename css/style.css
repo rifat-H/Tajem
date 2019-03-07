@@ -179,7 +179,7 @@
  	margin-bottom: 0;
  }
 
- .watch_wrapper img {}
+ /* .watch_wrapper img {} */
 
  .watch_wrapper p {
  	font-size: 16px;
@@ -202,7 +202,7 @@
  	margin-bottom: 60px;
  }
 
- .expertise_wrapper1 h1 {}
+ /* .expertise_wrapper1 h1 {} */
 
  .expertise_wrapper1 p {
  	letter-spacing: 1px;
@@ -233,7 +233,7 @@
  	margin-bottom: 18px;
  }
 
- .expertise_wrapper2 p {}
+ /* .expertise_wrapper2 p {} */
 
  /* expertise end */
 
@@ -247,7 +247,7 @@
  	background-attachment: fixed;
  }
 
- .team-header {}
+ /* .team-header {} */
 
  .team-header h1 {
  	color: #ffffff;
@@ -327,14 +327,20 @@
  	height: 200px;
  }
 
- .work-footer {}
+ /* .work-footer {} */
 
- .work-footer button {}
+ /* .work-footer button {} */
 
 
  /* works end */
 
  /* quotes start */
+
+ .car {
+	width: 98%;
+	display: flex;
+ }
+
  .quotes {
  	padding: 80px 0;
  	background: url(../images/banner4.png);
@@ -373,10 +379,6 @@
  	margin-top: 60px;
  }
 
- .slider-nav div {
- 	display: inline-block;
- }
-
  .main h6 {
  	font-weight: 300;
  	font-size: 13px;
@@ -389,13 +391,13 @@
  	padding: 65px 0;
  }
 
- .good {}
+ /* .good {} */
 
  .good h1 {
  	margin-bottom: 20px;
  }
 
- .good input {}
+ /* .good input {} */
 
  .good textarea {
  	height: 235px;
@@ -419,7 +421,7 @@
  	padding: 7px 30px;
  }
 
- .client {}
+ /* .client {} */
 
  .left,
  .right {
@@ -432,7 +434,7 @@
  	margin: 26px 0;
  }
 
- .right {}
+ /* .right {} */
 
  /* news end */
 
@@ -445,7 +447,7 @@
  	background-size: cover;
  }
 
- footer .discription {}
+ /* footer .discription {} */
 
  footer .discription img {
  	margin-bottom: 25px;
@@ -479,7 +481,7 @@
  	color: #ffffff;
  }
 
- .studio-head {}
+ /* .studio-head {} */
 
  .studio-head h1,
  .touch h1 {
@@ -491,11 +493,11 @@
  	font-weight: 900;
  }
 
- .studio-body-content {}
+ /* .studio-body-content {} */
 
- .studio-body-content p {}
+ /* .studio-body-content p {} */
 
- .touch {}
+ /* .touch {} */
 
  .touch h1 {
  	margin-bottom: 38px;
@@ -505,9 +507,9 @@
  	margin-top: 25px;
  }
 
- .touch ul li {}
+ /* .touch ul li {} */
 
- .touch ul li {}
+
 
  .touch p {
  	margin-top: 70px;
