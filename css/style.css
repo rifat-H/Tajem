@@ -330,7 +330,13 @@
  /* works end */
 
  /* quotes start */
- .quotes {}
+ .quotes {
+ 	padding: 80px 0;
+ 	background: url(../images/banner4.png);
+ 	background-attachment: fixed;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ }
 
  /* quotes end */
 
