@@ -5,6 +5,10 @@
  	color: #413d4b;
  }
 
+ button:hover{
+	 cursor: pointer;
+ }
+
  button:focus,
  input:focus {
  	outline: none;
