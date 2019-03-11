@@ -5,14 +5,15 @@
  	color: #413d4b;
  }
 
- button:hover{
-	 cursor: pointer;
+ *:focus {
+	 outline: none;
  }
 
- button:focus,
- input:focus {
- 	outline: none;
+
+ button:hover {
+ 	cursor: pointer;
  }
+
 
  .hed {
  	font-family: 'Playfair Display', serif;
@@ -55,15 +56,15 @@
  }
 
  nav ul li a {
-	 text-transform: uppercase;
-	 color: #fff !important;
-	 font-weight: 900;
-	 transition: all linear .3s ;
-	 -webkit-transition: all linear .3s ;
-	 -moz-transition: all linear .3s ;
-	 -ms-transition: all linear .3s ;
-	 -o-transition: all linear .3s ;
-}
+ 	text-transform: uppercase;
+ 	color: #fff !important;
+ 	font-weight: 900;
+ 	transition: all linear .3s;
+ 	-webkit-transition: all linear .3s;
+ 	-moz-transition: all linear .3s;
+ 	-ms-transition: all linear .3s;
+ 	-o-transition: all linear .3s;
+ }
 
  nav ul li a:hover {
  	color: #00e0d0 !important;
@@ -211,7 +212,9 @@
  	margin-bottom: 0;
  }
 
- /* .watch_wrapper img {} */
+ .watch_wrapper img:hover {
+ 	cursor: pointer;
+ }
 
  .watch_wrapper p {
  	font-size: 16px;
@@ -444,8 +447,9 @@
  	resize: none;
  }
 
- .good textarea:focus {
- 	outline: none;
+ .good textarea:focus, .good input:focus {
+	 outline: none;
+	 border-color: #00e0d0 !important;
  }
 
  .good input,
@@ -512,6 +516,8 @@
  	margin-top: 80px;
  }
 
+
+
  footer .discription ul li {
  	margin: 0 20px;
  }
@@ -523,13 +529,13 @@
  footer .discription ul li a {
  	text-transform: uppercase;
  	line-height: 26px;
-	 color: #ffffff;
-	 text-decoration: none;
+ 	color: #ffffff;
+ 	text-decoration: none;
  }
 
  footer .discription ul li a:hover {
-	/* background-color: #00e0d0; */
-    color: #00e0d0;
+ 	/* background-color: #00e0d0; */
+ 	color: #00e0d0;
  }
 
  /* .studio-head {} */
@@ -548,7 +554,17 @@
 
  /* .studio-body-content p {} */
 
- /* .touch {} */
+ .touch ul li i {
+ 	font-size: 22px;
+ 	color: #fff;
+ 	border: 2px solid white;
+ 	padding: 5px 10px;
+ 	border-radius: 50%;
+ 	-webkit-border-radius: 50%;
+ 	-moz-border-radius: 50%;
+ 	-ms-border-radius: 50%;
+ 	-o-border-radius: 50%;
+ }
 
  .touch h1 {
  	margin-bottom: 38px;
@@ -576,20 +592,21 @@
  }
 
  .touch input[type=submit] {
-	 background: url(../images/subscribeButton.png) no-repeat;
-	 background-position: center;
-	 cursor: pointer;
-	 border: none;
-	 background-color: rgba(221, 221, 221, 0.596);
-	 padding: 11px 35px;
-	 transition: all linear .3s ;
-	 -webkit-transition: all linear .3s ;
-	 -moz-transition: all linear .3s ;
-	 -ms-transition: all linear .3s ;
-	 -o-transition: all linear .3s ;
-}
- .touch input[type=submit]:hover {
-	background-color: #fff;
+ 	background: url(../images/subscribeButton.png) no-repeat;
+ 	background-position: center;
+ 	cursor: pointer;
+ 	border: none;
+ 	background-color: rgba(221, 221, 221, 0.596);
+ 	padding: 11px 35px;
+ 	transition: all linear .3s;
+ 	-webkit-transition: all linear .3s;
+ 	-moz-transition: all linear .3s;
+ 	-ms-transition: all linear .3s;
+ 	-o-transition: all linear .3s;
  }
 
-/* footer end */
+ .touch input[type=submit]:hover {
+ 	background-color: #fff;
+ }
+
+ /* footer end */
