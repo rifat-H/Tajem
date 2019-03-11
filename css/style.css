@@ -221,7 +221,8 @@
  	letter-spacing: 1px;
  	color: #ffffff;
  	font-weight: 900;
- 	margin-top: 30px;
+	 margin-top: 30px;
+	 margin-bottom: 0;
  }
 
  /* watch end */

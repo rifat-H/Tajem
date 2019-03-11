@@ -7,10 +7,6 @@
     text-align: center;
   }
 
-  .good button{
-    
-  }
-
 
 
   footer .discription {
@@ -30,6 +26,10 @@
   footer .discription ul {
     margin: 0;
   }
+/* 
+  .touch input[type=submit]{
+    padding-left: 0;
+  } */
 
   .touch {
     text-align: center;
@@ -87,6 +87,7 @@
   .watch {
     padding-top: 100px;
     padding-bottom: 92px;
+    height: 340px;
   }
 
   /* watch end */
