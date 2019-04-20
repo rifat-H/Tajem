@@ -42,22 +42,22 @@
 							<a class="nav-link" href="index.html">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">about</a>
+							<a class="nav-link" href="#story">about</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">expertise</a>
+							<a class="nav-link" href="#expertise">expertise</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">team</a>
+							<a class="nav-link" href="#team">team</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">works</a>
+							<a class="nav-link" href="#works">works</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">people say</a>
+							<a class="nav-link" href="#quotes">people say</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">contact</a>
+							<a class="nav-link" href="#news">contact</a>
 						</li>
 					</ul>
 				</div>
@@ -139,7 +139,7 @@
 	</header>
 	<!-- header end -->
 	<!-- story start -->
-	<section class="story">
+	<section class="story" id="story">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 offset-md-1">
@@ -179,7 +179,7 @@
 	</section>
 	<!-- watch end -->
 	<!-- expertise start -->
-	<section class="expertise">
+	<section class="expertise" id="expertise">
 		<div class="container">
 			<!-- row 1 start -->
 			<div class="row">
@@ -263,7 +263,7 @@
 	</section>
 	<!-- expertise end -->
 	<!-- team start -->
-	<section class="team">
+	<section class="team" id="team">
 		<div class="container">
 			<!-- row 1 start -->
 			<div class="row">
@@ -338,7 +338,7 @@
 	</section>
 	<!-- team end -->
 	<!-- works start -->
-	<section class="works">
+	<section class="works" id="works">
 		<div class="container-fluid">
 
 			<!-- row 1 start -->
@@ -395,7 +395,7 @@
 	</section>
 	<!-- works end -->
 	<!-- quotes start -->
-	<section class="quotes">
+	<section class="quotes" id="quotes">
 
 		<!-- one quote start -->
 		<div class="car">
@@ -444,7 +444,7 @@
 	</section>
 	<!-- quotes end -->
 	<!-- news start -->
-	<section class="news">
+	<section class="news" id="news">
 		<div class="container">
 			<!-- row 1 start -->
 			<div class="row">
@@ -624,6 +624,19 @@
 	<script src="node_modules/vide/dist/jquery.vide.min.js"></script>
 	<!-- custom -->
 	<script src="js/script.js"></script>
+
+	<script>
+		$('.nav-link').on('click', (e) => {
+        let href = $(e.currentTarget).attr('href');
+
+        $('html, body').animate({
+            scrollTop: $(href).offset().top +30
+        }, '2000');
+
+        e.preventDefault();
+    });
+
+	</script>
 </body>
 
 </html>
